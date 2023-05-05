@@ -1,0 +1,63 @@
+.toast{
+    width: 100%;
+    background-color: rgb(29,42,59);
+    margin-bottom: 10px;
+}
+.toast .header{
+    background-color: rgb(18,26,36);
+    color: white;
+}
+.toast .header .icon{
+    vertical-align: baseline;
+}
+.toast .header strong{
+    cursor: pointer;
+}
+.toast .body{
+    background-color: rgb(29,42,59);
+    color: white;
+    min-height: 150px;
+    max-height: 150px;
+    overflow: auto;
+}
+.toast .body .rate{
+    display: flex;
+    align-items: center;
+    color: greenyellow;
+}
+.toast .body .non_rate{
+    display: flex;
+    align-items: center;
+    color: red;
+}
+.toast .body img{
+    height: 38px;
+}
+.toast .body span{
+    display: inline-block;
+    height: 32px;
+}
+
+.no_comment{
+    text-align: center;
+    color: gray;
+}
+
+.comment_body{
+    white-space: pre-line;
+}
+
+.avatar{
+    border-radius: 18px;
+    height: 18px;
+    width: 18px;
+}
+
+.center_ver{
+    display: flex;
+    align-items: center;
+}
+
+.user_badge:hover{
+    filter: brightness(70%);
+}
